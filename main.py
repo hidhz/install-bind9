@@ -27,18 +27,11 @@ ff02::2     ip6-allrouters
 print("01. konfigurasi ip address...")
 sleep(1)
 os.chdir("/etc/network")
-f = open("interfaces", "w")
-f.write(f"""#The loopback network interface
-
-auto lo
-iface lo inet loopback
-
-auto {ETH}
+with open("interfaces", "a") as f :
+        f.write(f"""auto {ETH}
 iface {ETH} inet static
 	address {IP}
-	gateway {GATEWAY}
-""")
-f.close()
+	gateway {GATEWAY}""")
 # restart network
 print("restarting network...")
 os.system("systemctl restart networking")
