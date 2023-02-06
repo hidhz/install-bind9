@@ -9,7 +9,7 @@ os.system("clear")
 # Konfigurasi hosts
 print("00. konfigurasi hosts...")
 sleep(1)
-os.system("")
+os.system("nano /etc/hosts")
 hosts = f"""
 # IPv4.
 127.0.0.1   localhost
