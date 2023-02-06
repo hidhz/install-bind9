@@ -5,11 +5,11 @@
 2. buka file diterminal.
 3. edit file data.py sesuaikan data kamu.
 ```
-nano data.py
+# nano data.py
 ```
 4. jalankan perintah dibawah dan tunggu sampai selesai
 ```
-python main.py
+# python main.py
 ```
 
-## create with python language by hidhz
+## create with python by hidhz
