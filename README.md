@@ -5,7 +5,7 @@
 ``` 
 sudo -i
 ```
-masukan password
+masukan password, ketik lagi kode dibawah ini
 ```
 apt update && apt install git -y
 ```
