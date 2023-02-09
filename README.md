@@ -19,7 +19,8 @@ cd install-bind9
 ```
 # nano data.py
 ```
-kalo udah selesai save ctrl+x lalu tekan "y"
+kalo udah selesai save ctrl+x lalu tekan lagi y
+
 3. jalankan perintah dibawah dan tunggu sampai selesai
 ```
 # python3 main.py
