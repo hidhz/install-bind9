@@ -12,6 +12,9 @@ apt update && apt install git -y
 ```
 git clone https://github.com/hidhz/install-bind9.git
 ```
+```
+cd install-bind9
+```
 2. edit file data.py sesuaikan data kamu.
 ```
 # nano data.py
